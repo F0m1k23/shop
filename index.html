@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__logo">
+                    <i class="fa-solid fa-burger"></i>
+                    <a href="#">Landing Page</a>
+                </div>
+                <ul class="header__nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="header__cart">
+                    <a href="#" class="cart-icon">
+                        <i class="fa-solid fa-bucket"></i>
+                        <span class="cart-counter">0</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="products">
+                <div class="container">
+                    <div class="product__row">
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <p>&copy; 2024 Course Store. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-sidebar-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2>Ваша корзина</h2>
+           
+            <div class="cart-items" id="cartItems">
+                <!-- Здесь будут товары из корзины -->
+            </div>
+            <div class="cart-total">
+                <p>Общая стоимость: <span id="totalPrice">$0</span></p>
+            </div>
+            <button class="btn checkout">Перейти к оформлению</button>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+    <script src="https://kit.fontawesome.com/915df3aaf7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
